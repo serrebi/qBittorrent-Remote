@@ -13,7 +13,7 @@ try:  # pragma: no cover - platform specific
 except ImportError:  # pragma: no cover - non-Windows
     winreg = None  # type: ignore[assignment]
 
-APP_NAME = "qBittorrent Remote (Accessible)"
+APP_NAME = "qBittorrent Remote"
 APP_ID = "qbittorrent_remote_accessible"
 
 
